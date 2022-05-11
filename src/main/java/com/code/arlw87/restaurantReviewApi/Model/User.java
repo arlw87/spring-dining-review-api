@@ -36,4 +36,7 @@ public class User {
     @Column(name="DIARY_ALLERGY")
     private Boolean diaryAllergy;
 
+    @OneToMany
+    private Review reviews;
+
 }

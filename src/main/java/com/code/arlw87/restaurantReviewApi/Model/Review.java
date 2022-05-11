@@ -32,4 +32,7 @@ public class Review {
 
     @Column(name="COMMENTS")
     private String comments;
+
+    @OneToOne
+    private User user;
 }
